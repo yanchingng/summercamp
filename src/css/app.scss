@@ -1,0 +1,27 @@
+// app global css in SCSS form
+h1,h2,h3,h4,h5,h6, p{
+  margin: 0;
+  padding: 0;
+}
+
+.margins{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.paddings {
+  max-width: 1920px;
+  padding: 0 auto; /* This is the key change */
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Feeling Passionate";
+  src: url(./fonts/Feeling_Passionate.otf);
+}
+.feeling-passionate {
+  font-family: "Feeling Passionate";
+}
